@@ -1,0 +1,16 @@
+# Allowed topics - Optional (Default: "*")
+allowlist:
+  - name: "*"
+
+# Blocked topics - Optional (Default: empty)
+blocklist:
+  - name: "add_blocked_topics_list_here"
+
+# DDS Domain - Optional (Default: 0)
+domain: 0
+
+# Recorder output file
+extension: ".mcap"    # Optional (Default: ".mcap")
+path: "."             # Optional (Default: ".")
+filename: "output"    # Required
+use-timestamp: true   # Optional (Default: true)
